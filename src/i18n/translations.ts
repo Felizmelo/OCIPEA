@@ -204,7 +204,7 @@ export const translations = {
     footer: {
       contact: 'Contacto',
       quickLinks: 'Links Rápidos',
-      description: 'Centro Africano de Pesquisa e Pensamento Estratégico',
+      description: 'Observatório das Ciências e do Pensamento Estratégico Africano',
       rights: 'Todos os direitos reservados.',
     },
     team: {
@@ -222,7 +222,7 @@ export const translations = {
       team: 'Team',
     },
     hero: {
-      title: 'African Centre for Research and Strategic Thinking',
+      title: 'Observatory of African Sciences and Strategic Thinking',
       subtitle: 'Research And Strategic Thinking',
     },
     researchUnits: {
@@ -416,7 +416,7 @@ export const translations = {
     footer: {
       contact: 'Contact',
       quickLinks: 'Quick Links',
-      description: 'African Centre for Research and Strategic Thinking',
+      description: 'Observatory of African Sciences and Strategic Thinking',
       rights: 'All rights reserved.',
     },
     team: {
@@ -434,7 +434,7 @@ export const translations = {
       team: 'Équipe',
     },
     hero: {
-      title: 'Centre Africain de Recherche et de Pensée Stratégique',
+      title: 'Observatoire des Sciences et de la Pensée Stratégique Africaine',
       subtitle: 'Recherche et Pensée Stratégique',
     },
     researchUnits: {
@@ -628,7 +628,7 @@ export const translations = {
     footer: {
       contact: 'Contact',
       quickLinks: 'Liens Rapides',
-      description: 'Centre Africain de Recherche et de Pensée Stratégique',
+      description: 'Observatoire des Sciences et de la Pensée Stratégique Africaine',
       rights: 'Tous droits réservés.',
     },
     team: {

@@ -7,7 +7,7 @@ export const translations = {
       laboratories: 'Laboratórios',
       services: 'Serviços',
       organization: 'Organização',
-      team: 'Equipa',
+      team: 'Equipa Fundador',
     },
     hero: {
       title: 'Observatório das Ciências e do Pensamento Estratégico Africano',
@@ -240,7 +240,7 @@ export const translations = {
       rights: 'Todos os direitos reservados.',
     },
     team: {
-      sectionTitle: 'Equipa',
+      sectionTitle: 'Equipa Fundador',
       sectionSubtitle: 'Conheça os nossos membros',
     },
   },

@@ -34,6 +34,7 @@ const Navbar = () => {
             <a href="#services" className="hover:bg-slate-700 px-3 py-2 rounded-md text-sm font-medium transition-colors">{t.nav.services}</a>
             <a href="#organization" className="hover:bg-slate-700 px-3 py-2 rounded-md text-sm font-medium transition-colors">{t.nav.organization}</a>
             <a href="#team" className="hover:bg-slate-700 px-3 py-2 rounded-md text-sm font-medium transition-colors">{t.nav.team}</a>
+            <a href="#news" className="hover:bg-slate-700 px-3 py-2 rounded-md text-sm font-medium transition-colors">{t.nav.news}</a>
 
             <div className="relative ml-4">
               <button
@@ -105,6 +106,7 @@ const Navbar = () => {
             <a href="#services" onClick={() => setIsOpen(false)} className="block hover:bg-slate-700 px-3 py-2 rounded-md text-sm font-medium">{t.nav.services}</a>
             <a href="#organization" onClick={() => setIsOpen(false)} className="block hover:bg-slate-700 px-3 py-2 rounded-md text-sm font-medium">{t.nav.organization}</a>
             <a href="#team" onClick={() => setIsOpen(false)} className="block hover:bg-slate-700 px-3 py-2 rounded-md text-sm font-medium">{t.nav.team}</a>
+            <a href="#news" onClick={() => setIsOpen(false)} className="block hover:bg-slate-700 px-3 py-2 rounded-md text-sm font-medium">{t.nav.news}</a>
           </div>
         </div>
       )}

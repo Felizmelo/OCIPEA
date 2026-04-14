@@ -9,12 +9,18 @@ import Organization from './components/Organization';
 import Footer from './components/Footer';
 import Team from './components/Team';
 import TeamAdmin from './components/TeamAdmin';
+import News from './components/News';
+import NewsAdmin from './components/NewsAdmin';
 
-const isAdmin = window.location.pathname === '/admin/team';
+const path = window.location.pathname;
 
 function App() {
-  if (isAdmin) {
+  if (path === '/admin/team') {
     return <TeamAdmin />;
+  }
+
+  if (path === '/admin/news') {
+    return <NewsAdmin />;
   }
 
   return (
@@ -27,6 +33,7 @@ function App() {
         <Services />
         <Organization />
         <Team />
+        <News />
         <Footer />
       </div>
     </LanguageProvider>

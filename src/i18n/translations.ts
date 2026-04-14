@@ -8,6 +8,7 @@ export const translations = {
       services: 'Serviços',
       organization: 'Organização',
       team: 'Equipa Fundador',
+      news: 'Notícias',
     },
     hero: {
       title: 'Observatório das Ciências e do Pensamento Estratégico Africano',
@@ -243,6 +244,21 @@ export const translations = {
       sectionTitle: 'Equipa Fundador',
       sectionSubtitle: 'Conheça os nossos membros',
     },
+    news: {
+      sectionTitle: 'Notícias',
+      sectionSubtitle: 'Publicações e actualizações do Observatório',
+      readMore: 'Ler mais',
+      by: 'Por',
+      categories: {
+        all: 'Todas',
+        investigacao: 'Investigação',
+        eventos: 'Eventos',
+        publicacoes: 'Publicações',
+        geral: 'Geral',
+      },
+      noNews: 'Nenhuma notícia disponível de momento.',
+      latestNews: 'Últimas Notícias',
+    },
   },
 
   en: {
@@ -252,6 +268,7 @@ export const translations = {
       services: 'Services',
       organization: 'Organization',
       team: 'Team',
+      news: 'News',
     },
     hero: {
       title: 'Observatory of African Sciences and Strategic Thinking',
@@ -487,6 +504,21 @@ export const translations = {
       sectionTitle: 'Team',
       sectionSubtitle: 'Meet our team members',
     },
+    news: {
+      sectionTitle: 'News',
+      sectionSubtitle: 'Publications and updates from the Observatory',
+      readMore: 'Read more',
+      by: 'By',
+      categories: {
+        all: 'All',
+        investigacao: 'Research',
+        eventos: 'Events',
+        publicacoes: 'Publications',
+        geral: 'General',
+      },
+      noNews: 'No news available at the moment.',
+      latestNews: 'Latest News',
+    },
   },
 
   fr: {
@@ -496,6 +528,7 @@ export const translations = {
       services: 'Services',
       organization: 'Organisation',
       team: 'Équipe',
+      news: 'Actualités',
     },
     hero: {
       title: 'Observatoire des Sciences et de la Pensée Stratégique Africaine',
@@ -730,6 +763,21 @@ export const translations = {
     team: {
       sectionTitle: 'Équipe',
       sectionSubtitle: 'Rencontrez nos membres',
+    },
+    news: {
+      sectionTitle: 'Actualités',
+      sectionSubtitle: "Publications et mises à jour de l'Observatoire",
+      readMore: 'Lire la suite',
+      by: 'Par',
+      categories: {
+        all: 'Toutes',
+        investigacao: 'Recherche',
+        eventos: 'Événements',
+        publicacoes: 'Publications',
+        geral: 'Général',
+      },
+      noNews: "Aucune actualité disponible pour le moment.",
+      latestNews: 'Dernières Actualités',
     },
   },
 };

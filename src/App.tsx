@@ -7,7 +7,7 @@ import Laboratories from './components/Laboratories';
 import Services from './components/Services';
 import Organization from './components/Organization';
 import Footer from './components/Footer';
-import Team  from './components/Team ';
+import Team from './components/Team';
 
 function App() {
   return (

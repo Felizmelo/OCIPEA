@@ -206,6 +206,10 @@ export const translations = {
       description: 'Centro Africano de Pesquisa e Pensamento Estratégico',
       rights: 'Todos os direitos reservados.',
     },
+    team: {
+      sectionTitle: 'Equipa',
+      sectionSubtitle: 'Conheça os nossos membros',
+    },
   },
 
   en: {
@@ -413,6 +417,10 @@ export const translations = {
       description: 'African Centre for Research and Strategic Thinking',
       rights: 'All rights reserved.',
     },
+    team: {
+      sectionTitle: 'Team',
+      sectionSubtitle: 'Meet our team members',
+    },
   },
 
   fr: {
@@ -619,6 +627,10 @@ export const translations = {
       quickLinks: 'Liens Rapides',
       description: 'Centre Africain de Recherche et de Pensée Stratégique',
       rights: 'Tous droits réservés.',
+    },
+    team: {
+      sectionTitle: 'Équipe',
+      sectionSubtitle: 'Rencontrez nos membres',
     },
   },
 };

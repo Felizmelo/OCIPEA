@@ -8,8 +8,15 @@ import Services from './components/Services';
 import Organization from './components/Organization';
 import Footer from './components/Footer';
 import Team from './components/Team';
+import TeamAdmin from './components/TeamAdmin';
+
+const isAdmin = window.location.pathname === '/admin/team';
 
 function App() {
+  if (isAdmin) {
+    return <TeamAdmin />;
+  }
+
   return (
     <LanguageProvider>
       <div className="min-h-screen bg-white">

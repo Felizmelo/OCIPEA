@@ -7,6 +7,7 @@ export const translations = {
       laboratories: 'Laboratórios',
       services: 'Serviços',
       organization: 'Organização',
+      team: 'Equipa',
     },
     hero: {
       title: 'Observatório das Ciências e do Pensamento Estratégico Africano',
@@ -218,6 +219,7 @@ export const translations = {
       laboratories: 'Laboratories',
       services: 'Services',
       organization: 'Organization',
+      team: 'Team',
     },
     hero: {
       title: 'African Centre for Research and Strategic Thinking',
@@ -429,6 +431,7 @@ export const translations = {
       laboratories: 'Laboratoires',
       services: 'Services',
       organization: 'Organisation',
+      team: 'Équipe',
     },
     hero: {
       title: 'Centre Africain de Recherche et de Pensée Stratégique',

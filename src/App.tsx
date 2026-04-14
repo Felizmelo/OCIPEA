@@ -19,8 +19,8 @@ function App() {
         <Laboratories />
         <Services />
         <Organization />
-        <Footer />
         <Team />
+        <Footer />
       </div>
     </LanguageProvider>
   );

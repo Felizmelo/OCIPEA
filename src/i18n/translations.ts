@@ -177,8 +177,40 @@ export const translations = {
       ],
     },
     organization: {
-      sectionTitle: 'Estrutura Organizacional',
-      sectionSubtitle: 'Estrutura Organizacional',
+      sectionTitle: 'Organização',
+      sectionSubtitle: 'Missão, Visão e História',
+      mission: {
+        title: 'Missão',
+        text: 'O Observatório das Ciências e do Pensamento Estratégico Africano compromete-se a alcançar a excelência científica e a promover uma compreensão aprofundada da sociedade política africana. Isso inclui explorar dimensões espirituais, sociais, políticas e económicas, todas enquadradas no contexto mais amplo da modernidade africana, desde os tempos antigos até ao presente. Assim, o Observatório visa promover o discurso académico e fornecer perspetivas sociopolíticas sobre a experiência africana, encorajando uma compreensão abrangente de África e do seu futuro visionário em vários domínios científicos, em alinhamento com as aspirações contemporâneas no continente.',
+      },
+      vision: {
+        title: 'Visão',
+        text: 'A nossa visão é criar um Think Tank de investigação focado em colmatar a lacuna entre teoria e prática, aprofundando assim a nossa compreensão da humanidade africana. Pretendemos clarificar a relação entre continuidade e descontinuidade histórica para aprimorar o desenvolvimento das associações políticas africanas contemporâneas.',
+      },
+      history: {
+        title: 'A Nossa História',
+        text: 'O Observatório foi fundado em 2026 por um grupo de jovens académicos africanos representando diversas áreas das Ciências Sociais e Humanas. Como organização académica autónoma e sem fins lucrativos, dedica-se ao avanço do discurso científico em África. O Observatório posicionou-se como um centro de excelência, oferecendo uma plataforma para o estudo sistemático, análise e interpretação das experiências e da realidade africanas. Serve como uma rede interdisciplinar de investigadores africanos que colaboram com instituições de investigação internacionais em toda África e além. Numa era marcada por mudanças políticas e tecnológicas significativas, o Observatório emergiu como um proeminente think tank de investigação africana onde a questão da verdade científica é crítica. Guiado pelos princípios do conhecimento tácito, tradições teóricas e inovação, aprofundamos o cenário e os processos sociopolíticos africanos através do prisma do Africanismo, examinando a relação estrutural entre o poder político e a associação civil. Um organismo científico multidimensional ilustrado pelo pensamento independente rigoroso, a nossa história é a de um centro líder para a epistemologia e ontologia africanas. Os nossos centros de investigação estão localizados em todo o continente africano e divididos em cinco regiões.',
+      },
+      branches: {
+        title: 'Ramos',
+        items: [
+          'Conselho Editorial Científico',
+          'Unidades de Coordenação Regional',
+          'Unidades Internacionais',
+        ],
+      },
+      objectives: {
+        title: 'Objetivos',
+        items: [
+          'Fornecer um guia teórico para o modernismo africano, combinado com uma análise de dados empíricos sobre as condições socioeconómicas atuais de África.',
+          'Plataforma científica multidisciplinar para servir como centro académico para estudantes de pós-graduação e académicos/investigadores sénior em toda África e na Diáspora.',
+          'Envolver questões teóricas, conceptuais, metodológicas e filosóficas urgentes relativas à imaginação africana.',
+          'Publicações académicas como base da criação de conhecimento, e realização de conferências regulares sobre questões sociopolíticas pertinentes a África.',
+          'Melhorar o sentido de comunidade intelectual entre académicos africanos e além, criando um ambiente intelectual colaborativo.',
+          'Facilitar o desenvolvimento de académicos africanos emergentes, garantindo que as Ciências Africanas abordem questões de conhecimento científico e tradição.',
+          'Proporcionar oportunidades de estágio para estudantes e investigadores em início de carreira em todo o continente africano.',
+        ],
+      },
       researchTeam: {
         title: 'Equipa de Investigação',
         items: [
@@ -389,8 +421,40 @@ export const translations = {
       ],
     },
     organization: {
-      sectionTitle: 'Organization Structure',
-      sectionSubtitle: 'Organizational Structure',
+      sectionTitle: 'Organization',
+      sectionSubtitle: 'Mission, Vision & History',
+      mission: {
+        title: 'Mission',
+        text: 'The Observatory of Sciences and African Strategic Thought is committed to achieving scientific excellence and fostering a nuanced understanding of African political society. This includes exploring spiritual, social, political, and economic dimensions, all framed within the broader context of African modernity, from ancient times to the present. As such, the Observatory aims to promote scholarly discourse and provide socio-political insights into the African experience, thereby encouraging a comprehensive understanding of Africa and its visionary future across various scientific domains, in alignment with contemporary aspirations on the continent.',
+      },
+      vision: {
+        title: 'Vision',
+        text: 'Our vision is to create a research Think Tank focused on bridging the gap between theory and practice, thereby deepening our understanding of African humanity. We aim to clarify the relationship between historical continuity and discontinuity to enhance the development of contemporary African political associations.',
+      },
+      history: {
+        title: 'Our History',
+        text: 'The Observatory was established in 2026 by a group of young African scholars representing diverse fields within the Social Sciences and Humanities. As an autonomous, non-profit academic organization, it is dedicated to advancing scientific discourse in Africa. The Observatory has positioned itself as a center of excellence, offering a platform for the systematic study, analysis, and interpretation of African experiences and reality. It serves as an interdisciplinary network of African researchers collaborating with international research institutions across Africa and beyond. In an era marked by significant political and technological change, the Observatory has emerged as a prominent African research think tank where the question of scientific truth is critical. Guided by the principles of tacit knowledge, theoretical traditions, and innovation, we delve deeper into the African socio-political landscape and processes through the lens of Africanism, examining the structural relation between political power and civil association. A multidimensional scientific body illustrated by rigorous independent thought, our history is that of a leading center for African epistemology and Ontology. Our research centers are located across the African continent and are divided into five regions.',
+      },
+      branches: {
+        title: 'Branches',
+        items: [
+          'Scientific Editorial Board',
+          'Regional Coordinator Units',
+          'International Units',
+        ],
+      },
+      objectives: {
+        title: 'Objectives',
+        items: [
+          'Provide a theoretical guide to African modernism, combined with an empirical data analysis on the present socio-economic conditions of Africa.',
+          'A Multidisciplinary scientific platform to serve as an academic center for postgraduate students and senior academics/research fellows across Africa and the Diaspora.',
+          'Engage with pressing theoretical, conceptual, methodological, and philosophical questions regarding the African imagination.',
+          'Academic publications as the basis of knowledge creation, and convene regular conferences that delve into socio-political issues pertinent to Africa.',
+          'Enhance the sense of intellectual community among African scholars and beyond, creating a collaborative intellectual environment.',
+          'Facilitate the development of emerging African scholars, ensuring that African Sciences address questions of scientific knowledge and tradition.',
+          'Provide internship opportunities for undergraduates, graduate students, and early-career PhD candidates and scholars across the African continent.',
+        ],
+      },
       researchTeam: {
         title: 'Research Team',
         items: [
@@ -601,8 +665,40 @@ export const translations = {
       ],
     },
     organization: {
-      sectionTitle: "Structure de l'Organisation",
-      sectionSubtitle: 'Structure Organisationnelle',
+      sectionTitle: 'Organisation',
+      sectionSubtitle: 'Mission, Vision & Histoire',
+      mission: {
+        title: 'Mission',
+        text: "L'Observatoire des Sciences et de la Pensée Stratégique Africaine s'engage à atteindre l'excellence scientifique et à favoriser une compréhension nuancée de la société politique africaine. Cela comprend l'exploration des dimensions spirituelles, sociales, politiques et économiques, toutes encadrées dans le contexte plus large de la modernité africaine, de l'Antiquité à nos jours. L'Observatoire vise ainsi à promouvoir le discours académique et à fournir des éclairages socio-politiques sur l'expérience africaine, encourageant une compréhension globale de l'Afrique et de son avenir visionnaire dans divers domaines scientifiques.",
+      },
+      vision: {
+        title: 'Vision',
+        text: "Notre vision est de créer un Think Tank de recherche axé sur le comblement du fossé entre théorie et pratique, approfondissant ainsi notre compréhension de l'humanité africaine. Nous visons à clarifier la relation entre continuité et discontinuité historiques pour améliorer le développement des associations politiques africaines contemporaines.",
+      },
+      history: {
+        title: 'Notre Histoire',
+        text: "L'Observatoire a été fondé en 2026 par un groupe de jeunes chercheurs africains représentant divers domaines des Sciences Sociales et Humaines. En tant qu'organisation académique autonome et à but non lucratif, elle se consacre à l'avancement du discours scientifique en Afrique. L'Observatoire s'est positionné comme un centre d'excellence, offrant une plateforme pour l'étude systématique, l'analyse et l'interprétation des expériences et de la réalité africaines. Il sert de réseau interdisciplinaire de chercheurs africains collaborant avec des institutions de recherche internationales à travers l'Afrique et au-delà. À une époque marquée par des changements politiques et technologiques significatifs, l'Observatoire est devenu un éminent think tank de recherche africain. Nos centres de recherche sont répartis sur tout le continent africain et divisés en cinq régions.",
+      },
+      branches: {
+        title: 'Branches',
+        items: [
+          'Comité Éditorial Scientifique',
+          'Unités de Coordination Régionale',
+          'Unités Internationales',
+        ],
+      },
+      objectives: {
+        title: 'Objectifs',
+        items: [
+          "Fournir un guide théorique sur le modernisme africain, combiné à une analyse de données empiriques sur les conditions socio-économiques actuelles de l'Afrique.",
+          "Une plateforme scientifique multidisciplinaire pour servir de centre académique aux étudiants de troisième cycle et aux chercheurs seniors à travers l'Afrique et la Diaspora.",
+          "S'engager avec des questions théoriques, conceptuelles, méthodologiques et philosophiques urgentes concernant l'imagination africaine.",
+          'Publications académiques comme base de création de connaissances, et organisation de conférences régulières sur les questions socio-politiques pertinentes à l\'Afrique.',
+          'Renforcer le sentiment de communauté intellectuelle parmi les chercheurs africains et au-delà, créant un environnement intellectuel collaboratif.',
+          "Faciliter le développement des chercheurs africains émergents, en veillant à ce que les Sciences Africaines abordent les questions de connaissance scientifique.",
+          "Offrir des opportunités de stage aux étudiants et chercheurs en début de carrière sur tout le continent africain.",
+        ],
+      },
       researchTeam: {
         title: 'Équipe de Recherche',
         items: [

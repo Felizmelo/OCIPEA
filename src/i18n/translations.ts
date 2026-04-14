@@ -28,9 +28,9 @@ export const translations = {
     • Liderança e administração pública`,
         },
         {
-          title: 'Escola de Filosofia e Doutrinas',
-          description: 'School of Philosophy and Doctrines',
-          details: `A Escola de Filosofia e Doutrinas explora tradições filosóficas e desenvolvimentos doutrinários em toda África. As áreas-chave incluem:
+          title: 'Escola de Filosofia Africana e Doutrinas',
+          description: 'School of African Philosophy and Doctrines',
+          details: `Escola de Filosofia Africana e Doutrinas explora tradições filosóficas e desenvolvimentos doutrinários em toda África. As áreas-chave incluem:
     • Tradições filosóficas africanas
     • Filosofia comparada
     • Ética e filosofia moral

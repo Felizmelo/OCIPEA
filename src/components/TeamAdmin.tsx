@@ -44,8 +44,11 @@ const MemberForm = ({ member, onSave, onDelete, getPhotoUrl }: MemberFormProps) 
   const [uploading, setUploading] = useState(false);
   const [saving, setSaving] = useState(false);
   const [deleting, setDeleting] = useState(false);
+  const [saveSuccess, setSaveSuccess] = useState(false);
   const [previewUrl, setPreviewUrl] = useState<string>(member.photo_path ? getPhotoUrl(member.photo_path) : '');
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const formRef = useRef(form);
+  formRef.current = form;
 
   const handleChange = (field: keyof TeamMember, value: string | number) => {
     setForm(prev => ({ ...prev, [field]: value }));
@@ -57,19 +60,27 @@ const MemberForm = ({ member, onSave, onDelete, getPhotoUrl }: MemberFormProps) 
 
     setUploading(true);
     try {
-      const ext = file.name.split('.').pop();
+      const ext = file.name.split('.').pop()?.toLowerCase() || 'jpg';
       const path = `${member.id}.${ext}`;
 
-      const { error } = await supabase.storage
+      const { error: uploadError } = await supabase.storage
         .from('team-photos')
-        .upload(path, file, { upsert: true });
+        .upload(path, file, { upsert: true, contentType: file.type });
 
-      if (error) throw error;
+      if (uploadError) throw uploadError;
+
+      const { error: updateError } = await supabase
+        .from('team_members')
+        .update({ photo_path: path })
+        .eq('id', member.id);
+
+      if (updateError) throw updateError;
 
       setForm(prev => ({ ...prev, photo_path: path }));
       setPreviewUrl(URL.createObjectURL(file));
     } catch (err) {
       console.error('Upload error:', err);
+      alert('Erro ao carregar foto. Tente novamente.');
     } finally {
       setUploading(false);
     }
@@ -78,7 +89,11 @@ const MemberForm = ({ member, onSave, onDelete, getPhotoUrl }: MemberFormProps) 
   const handleSave = async () => {
     setSaving(true);
     try {
-      await onSave(form);
+      await onSave(formRef.current);
+      setSaveSuccess(true);
+      setTimeout(() => setSaveSuccess(false), 2000);
+    } catch (err) {
+      alert('Erro ao guardar. Tente novamente.');
     } finally {
       setSaving(false);
     }
@@ -204,10 +219,10 @@ const MemberForm = ({ member, onSave, onDelete, getPhotoUrl }: MemberFormProps) 
             <button
               onClick={handleSave}
               disabled={saving}
-              className="flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white px-5 py-2 rounded-lg text-sm font-medium disabled:opacity-60 transition-colors"
+              className={`flex items-center gap-2 px-5 py-2 rounded-lg text-sm font-medium disabled:opacity-60 transition-colors text-white ${saveSuccess ? 'bg-green-500' : 'bg-amber-500 hover:bg-amber-600'}`}
             >
               <Save className="h-4 w-4" />
-              {saving ? 'A guardar...' : 'Guardar'}
+              {saving ? 'A guardar...' : saveSuccess ? 'Guardado!' : 'Guardar'}
             </button>
           </div>
         </div>
@@ -431,7 +446,11 @@ const TeamAdmin = () => {
       })
       .eq('id', member.id);
 
-    if (!error) await fetchMembers();
+    if (error) {
+      console.error('Save error:', error);
+      throw error;
+    }
+    await fetchMembers();
   };
 
   const handleDelete = async (id: string) => {

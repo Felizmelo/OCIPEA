@@ -8,9 +8,9 @@ const Hero = () => {
     <div className="relative bg-slate-900 text-white">
       <div className="absolute inset-0">
         <img
-          className="w-full h-full object-cover opacity-20"
-          src="https://images.unsplash.com/photo-1447069387593-a5de0862481e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-          alt="African Research"
+          className="w-full h-full object-cover opacity-30"
+          src="/WhatsApp_Image_2026-04-14_at_23.17.23.jpeg"
+          alt="OCIPEA"
         />
       </div>
       <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
